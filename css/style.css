@@ -3,6 +3,7 @@
     background: url("../images/PhoenixEdge.jpg");
     background-size: cover;
     height: 150vh;
+    background-color:darkcyan;
 }
 .home .home-content{
     text-align: center;
