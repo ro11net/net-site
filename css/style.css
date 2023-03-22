@@ -1,12 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 .home {
-    background: url("../images/edge.jpg");
+    background: url("../images/PhoenixEdge.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 .home .home-content{
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 20vh;
+    color: orangered;
+    font-family: 'Inconsolata', monospace;
+}
+.nav{
+    height: 50px;
+    background: orange;
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+.nav ul{
+    position: absolute;
+    right: 5px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: black;
+    padding: 5px;
+    font-family: 'Inconsolata', monospace;
 }
