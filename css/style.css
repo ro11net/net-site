@@ -7,6 +7,11 @@
     background-position: center;
 }
 .home .home-content{
+    position: fixed;
+    top: 10cm;
+    left: 0cm;
+    right: 0cm;
+    bottom:0cm;
     text-align: center;
     display: flex;
     align-items: center;
@@ -18,11 +23,16 @@
 .nav{
     height: 50px;
     background: orangered;
+    border-color: yellowgreen;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 30%
+    
 }
 .nav div{
     display: inline-block;
     position: absolute;
-    left: 0;
+    left: 10;
     padding: 15px;
     font-size: 25px;
     color: black;
@@ -30,34 +40,48 @@
 }
 .nav ul{
     position: absolute;
-    right: 5px;
+    right: 10px;
 }
 .nav ul li{
     display: inline-block;
 }
 .nav ul li a{
     color: black;
-    padding: 5px;
+    padding: 15px;
     font-family: 'Inconsolata', monospace;
 }
 .about{
-    text-align: center;
     font-family: 'Inconsolata', monospace;
     color: orangered;
     background-color: cyan;
     background-size: contain;
     height: 150vh;
+}
+.about .about-content{
+    text-align: center;
+    position: fixed;
+    top: 5cm;
+    left: 0cm;
+    right: 0cm;
+    bottom:0cm;
 }
 .about .about-content p{
     font-size: 25px;
 }
 .contact{
-    text-align: center;
     font-family: 'Inconsolata', monospace;
     color: orangered;
     background-color: cyan;
     background-size: contain;
     height: 150vh;
+}
+.contact .contact-content{
+    text-align: center;
+    position: fixed;
+    top: 5cm;
+    left: 0cm;
+    right: 0cm;
+    bottom:0cm;
 }
 .contact .contact-content p{
     font-size: 20px;
