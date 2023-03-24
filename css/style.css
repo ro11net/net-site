@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@media screen and (max-width: 720px){
+    p{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 720px){
+    p{
+        font-size: 25px;
+    }
+}
 .home{
     background: url("../images/PhoenixEdge.png");
     background-size: cover;
