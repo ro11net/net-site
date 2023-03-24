@@ -97,13 +97,21 @@
     font-size: 20px;
 }
 .hover{
-    border: 0;
+    position: fixed;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px;
     line-height: 5.5;
     padding: 0 25px;
     text-align: center;
     color: black;
     background-color: green;
     border-radius: 10px;
+    height: 5vh;
+    margin: 200px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 
 }
 .hover:hover{
