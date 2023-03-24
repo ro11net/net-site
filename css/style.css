@@ -9,6 +9,26 @@
         font-size: 25px;
     }
 }
+@keyframes marquee-home {
+    from { transform: translateY(0%); }
+    to { transform: translateY(-100%); }
+  }
+@keyframes marquee-about-h1 {
+    from { transform: translateX(0%); }
+    to {transform: translateX(-100%); }
+}
+@keyframes marquee-about-p {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0%); }
+}
+@keyframes marquee-contact-h1 {
+    from { transform: scale(5.5); }
+    to { transform: scale(2.5); }
+}
+@keyframes marquee-contact-p {
+    from { transform: scale(0.25); }
+    to {transform: scale(1.5); }
+}
 .home{
     background: url("../images/PhoenixEdge.png");
     background-size: cover;
@@ -18,7 +38,7 @@
 }
 .home .home-content{
     position: fixed;
-    top: 10cm;
+    top: 8cm;
     left: 0cm;
     right: 0cm;
     bottom:0cm;
@@ -29,6 +49,12 @@
     height: 20vh;
     color: orangered;
     font-family: 'Inconsolata', monospace;
+}
+.home .home-content h1{
+    animation: marquee-home 4s reverse;
+}
+.home .home-content h2{
+    animation: marquee-home 4s forwards;
 }
 .nav{
     height: 50px;
@@ -84,9 +110,13 @@
     right: 0cm;
     bottom:0cm;
 }
+.about .about-content h1{
+    animation: marquee-about-h1 2s reverse;
+}
 .about .about-content p{
     font-size: 25px;
     overflow: auto;
+    animation: marquee-about-p 3s linear;
 }
 .contact{
     font-family: 'Inconsolata', monospace;
@@ -103,8 +133,12 @@
     right: 0cm;
     bottom:0cm;
 }
+.contact .contact-content h1{
+    animation: marquee-contact-h1 4s;
+}
 .contact .contact-content p{
     font-size: 20px;
+    animation: marquee-contact-p 2s;
 }
 .hover{
     position: fixed;
