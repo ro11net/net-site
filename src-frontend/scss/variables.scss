@@ -1,0 +1,43 @@
+//@import 'vuetify';
+
+@use 'vuetify' with (
+  $body-font-family:  'pixelify',
+  $heading-font-family: 'special-elite',
+);
+
+@font-face {
+  font-family: "oswald";
+  src: url("@/fonts/oswald/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "special-elite";
+    src: url("@/fonts/special-elite/SpecialElite-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("@/fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "pixelify";
+    src: url("@/fonts/pixelify/PixelifySans-VariableFont_wght.ttf");
+}
+
+.font-monospace {
+  font-family: monospace;
+}
+
+.font-roboto {
+  font-family: "roboto", monospace;
+}
+
+.font-special-elite {
+    font-family: "special-elite", monospace;
+}
+
+.font-pixelify {
+    font-family: "pixelify", monospace;
+}
+
